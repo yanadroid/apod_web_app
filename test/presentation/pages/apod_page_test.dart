@@ -1,4 +1,3 @@
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -14,7 +13,7 @@ import 'package:network_image_mock/network_image_mock.dart';
 
 import 'apod_page_test.mocks.dart';
 
-@GenerateMocks([ApodBloc, HttpClient, HttpClientRequest, HttpClientResponse, HttpHeaders])
+@GenerateMocks([ApodBloc])
 void main() {
   group('ApodPage Widget Tests', () {
     late MockApodBloc mockApodBloc;
