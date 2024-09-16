@@ -6,7 +6,7 @@ import 'package:nasa_apod/features/presentation/pages/apod/full_screen_apod_page
 import 'package:network_image_mock/network_image_mock.dart';
 
 
-@GenerateMocks([NavigatorObserver, Navigator])
+@GenerateMocks([NavigatorObserver])
 void main() {
   late ApodEntity apodEntity;
 
